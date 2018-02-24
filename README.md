@@ -11,7 +11,7 @@ I ran the tasks on Macbook Pro with 2.7 GHz core i5, and got these results:
 
 ## Explanation of Results
 
- - Append to String is the slowest task because every we appending, it create new String.
+ - Append to String is the slowest task because every appending, it create new String.
  
  - Append to String by String Builder is the fastest task because it overwrite the old string and then return it.
  
