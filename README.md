@@ -5,9 +5,9 @@ I ran the tasks on Macbook Pro with 2.7 GHz core i5, and got these results:
 
 | Task | Time |
 |:-----|-----:|
-|Append 52539 chars to String | 1.274831 sec. |
-|Append 52539 chars to StringBuilder | 0.007584 sec. |
-|Append 52539 chars to StringBufferedReader | 0.036906 sec. |
+|Read file 1-char at a time to String | 1.274831 sec. |
+|Read file 1-char at a time to StringBuilder | 0.007584 sec. |
+|Read file line at a time using BufferedReader | 0.036906 sec. |
 
 ## Explanation of Results
 
