@@ -1,6 +1,13 @@
 import java.io.*;
 
-
+/**
+ * Read a text file one character at a time then append
+ * all the character to a String by StringBuilder
+ * and return the String.
+ * 
+ * @author Patiphan Srisook
+ *
+ */
 public class AppendStringBuilder implements Runnable {
 
 	private String filename;
@@ -38,6 +45,7 @@ public class AppendStringBuilder implements Runnable {
 		} catch (IOException ioe) { }
 	}
 	
+	// Describe class information.
 	public String toString() {
 		return String.format("Read %d chars",data.length());
 	}

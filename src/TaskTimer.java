@@ -1,10 +1,16 @@
 
+/**
+ * This class performs any Runnable task and prints results.
+ * 
+ * @author Patiphan Srisook
+ *
+ */
 public class TaskTimer {
-
-	public TaskTimer() {
-		
-	}
 	
+	/**
+	 * Measure time for the task and then print the result.
+	 * @param task
+	 */
 	public void measureAndPrint(Runnable task) {
 		Stopwatch sw = new Stopwatch();
 		sw.start();

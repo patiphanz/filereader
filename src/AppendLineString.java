@@ -1,5 +1,12 @@
 import java.io.*;
 
+/**
+ * Read the file as text one line at a time by using a BufferedReader
+ * and append the result to a String.
+ * 
+ * @author Patiphan Srisook
+ *
+ */
 public class AppendLineString implements Runnable {
 
 	private String filename;
@@ -32,6 +39,7 @@ public class AppendLineString implements Runnable {
 		
 	}
 
+	// Describe class information.
 	public String toString() {
 		return String.format("Read %d chars", result.length());
 	}

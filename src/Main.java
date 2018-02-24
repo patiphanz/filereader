@@ -1,4 +1,10 @@
 
+/**
+ * The main class use to test all of readFile method.
+ * 
+ * @author Patiphan Srisook
+ *
+ */
 public class Main {
 
 	public static void main(String[] args) {

@@ -1,5 +1,12 @@
 import java.io.*;
 
+/**
+ * Read a text file one character at a time then append
+ * all the character to a String and return the String.
+ * 
+ * @author Patiphan Srisook
+ *
+ */
 public class AppendStringTask implements Runnable {
 
 	private String filename;
@@ -36,6 +43,7 @@ public class AppendStringTask implements Runnable {
 		} catch (IOException ioe) { }
 	}
 	
+	// Describe class information.
 	public String toString() {
 		return String.format("Read %d chars",data.length());
 	}
